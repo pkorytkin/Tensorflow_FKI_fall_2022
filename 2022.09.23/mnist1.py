@@ -1,5 +1,7 @@
 import tensorflow as tf
 #from tensorflow import keras
+#Используем костыль для исправления IntelliSense для keras по гайду:
+#https://stackoverflow.com/questions/71000250/import-tensorflow-keras-could-not-be-resolved-after-upgrading-to-tensorflow-2
 import keras.api._v2.keras as keras
 from keras import layers
 from keras import losses
